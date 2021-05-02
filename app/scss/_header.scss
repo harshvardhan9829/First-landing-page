@@ -1,4 +1,6 @@
 .header {
+    position: reltive;
+    z-index: 1;
     // hamberburger menu open style
     &.open {
         .header__toggle {
@@ -58,13 +60,13 @@
         padding: 1.625rem;
         border-radius: 5px;
         a {
-            display: block;
+            display: inline-block;
             color: $darkBlue;
             padding: 0.625rem;
             text-align: center;
         }
     }
-    &__links {
+    &__link {
         a {
             position: relative;
             font-size: $font-sm;
